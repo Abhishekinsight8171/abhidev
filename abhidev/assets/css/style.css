@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+    .footer-widgets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .main-navigation ul {
+        flex-direction: column;
+    }
+    
+    .footer-widgets {
+        grid-template-columns: 1fr;
+    }
+}
